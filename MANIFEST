@@ -2,6 +2,7 @@ Changes
 inc/Module/Install.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
+inc/Module/Install/DSL.pm
 inc/Module/Install/Fetch.pm
 inc/Module/Install/Makefile.pm
 inc/Module/Install/Metadata.pm
@@ -15,4 +16,6 @@ META.yml
 README
 t/01_compile.t
 t/02_usage.t
-t/99_pod.t
+xt/meta.t
+xt/pmv.t
+xt/pod.t

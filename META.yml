@@ -1,19 +1,31 @@
-
-no_index: 
-  directory: 
+---
+abstract: 'Lets your class/object say it works like something else'
+author:
+  - 'Adam Kennedy <adamk@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  File::Spec: 0.80
+  Test::More: 0.47
+  base: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.00'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: asa
+name: asa
+no_index:
+  directory:
     - inc
     - t
-generated_by: Module::Install version 0.62
-distribution_type: module
-version: 0.02
-name: asa
-author: Adam Kennedy <cpan@ali.as<
-license: perl
-build_requires: 
-  Test::More: 0.47
-  File::Spec: 0.80
-requires: 
-  base: 0
+    - xt
+requires:
   perl: 5.005
-  Carp: 0
-abstract: Lets your class/object say it works like something else
+resources:
+  ChangeLog: http://fisheye2.atlassian.com/changelog/cpan/trunk/asa
+  license: http://dev.perl.org/licenses/
+  repository: http://svn.ali.as/cpan/trunk/asa
+version: 1.03

@@ -4,20 +4,20 @@ NAME
 SYNOPSIS
       #########################################
       # Your Code
-  
-      package My::WereDuck;
-  
-      use base 'My::Lycanthrope';
+      
+  package My::WereDuck;
+      
+  use base 'My::Lycanthrope';
       use asa  'Duck';
-  
-      sub quack {
+      
+  sub quack {
           return "Hi! errr... Quack!";
       }
-  
-      ################################################
+      
+  ################################################
       # Their Code
-  
-      sub strangle {
+      
+  sub strangle {
           my $duck = shift;
           unless ( $duck->isa('Duck') ) {
               die "We only strangle ducks";
@@ -128,13 +128,13 @@ SUPPORT
     author.
 
 AUTHORS
-    Adam Kennedy <cpan@ali.as<
+    Adam Kennedy <adamk@cpan.org>
 
 SEE ALSO
-    base, <http://ali.as/>
+    <http://ali.as/>
 
 COPYRIGHT
-    Copyright (c) 2006 Adam Kennedy. All rights reserved.
+    Copyright 2006 - 2011 Adam Kennedy.
 
     This program is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.

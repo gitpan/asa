@@ -1,10 +1,6 @@
-use inc::Module::Install;
+use inc::Module::Install::DSL;
 
-name           'asa';
-all_from       'lib/asa.pm';
-requires       'Carp'       => 0;
-requires       'base'       => 0;
-build_requires 'File::Spec' => '0.80';
-build_requires 'Test::More' => '0.47';
-
-WriteAll;
+all_from      lib/asa.pm
+test_requires base
+test_requires File::Spec 0.80
+test_requires Test::More 0.47

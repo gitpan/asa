@@ -134,7 +134,7 @@ use Carp ();
 
 use vars qw{$VERSION};
 BEGIN {
-	$VERSION = '0.02';
+	$VERSION = '1.03';
 }
 
 sub import {
@@ -154,6 +154,8 @@ sub import {
 
 1;
 
+=pod
+
 =head1 SUPPORT
 
 Bugs should be always be reported via the CPAN bug tracker at
@@ -164,15 +166,15 @@ For other issues, or commercial enhancement or support, contact the author.
 
 =head1 AUTHORS
 
-Adam Kennedy E<lt>cpan@ali.asE<lt>
+Adam Kennedy E<lt>adamk@cpan.orgE<gt>
 
 =head1 SEE ALSO
 
-L<base>, L<http://ali.as/>
+L<http://ali.as/>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2006 Adam Kennedy. All rights reserved.
+Copyright 2006 - 2011 Adam Kennedy.
 
 This program is free software; you can redistribute
 it and/or modify it under the same terms as Perl itself.
